@@ -27,7 +27,7 @@ public:
   TVector(int s = 10, int si = 0);
   TVector(const TVector &v);                // конструктор копирования
   ~TVector();
-  int GetSize()      { return Size;       } // размер вектора
+  int GetSize()      { return (Size + StartIndex); } // размер вектора
   int GetStartIndex(){ return StartIndex; } // индекс первого элемента
   ValType& operator[](int pos);             // доступ
   bool operator==(const TVector &v) const;  // сравнение
@@ -65,7 +65,7 @@ TVector<ValType>::TVector(int s, int si)
 	if ((s <= 0) || (s > MAX_VECTOR_SIZE))
 		throw "negative size or too large";
 	if ((si < 0) || (si >= s))
-		throw "wrong index";
+		throw "wrong start index";
 	Size = s - si;
 	StartIndex = si;
 	pVector = new ValType[Size];
