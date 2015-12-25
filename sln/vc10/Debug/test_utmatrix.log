@@ -1,0 +1,24 @@
+﻿Сборка начата 25.12.2015 23:21:06.
+     1>Проект "C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (gtest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\MVS 13 Ultimate\VC\bin\CL.exe /c /I../../gtest /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\test\test_tmatrix.cpp ..\..\test\test_tvector.cpp
+         test_tmatrix.cpp
+         Создание кода...
+         Компиляция...
+         test_tvector.cpp
+         Создание кода...
+     1>Проект "C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" (1) выполняет сборку "C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\gtest.vcxproj" (2:3) в узле 2 (целевые объекты GetResolvedLinkLibs).
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (test_utmatrix.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     2>Сборка проекта "C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\gtest.vcxproj" завершена (целевые объекты GetResolvedLinkLibs).
+     1>Link:
+         E:\MVS 13 Ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.exe" /INCREMENTAL /NOLOGO /LIBPATH:Debug gtest.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.lib" /MACHINE:X86 /SAFESEH Debug\test_main.obj
+         Debug\test_tmatrix.obj
+         Debug\test_tvector.obj
+         "C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\Debug\gtest.lib"
+         test_utmatrix.vcxproj -> C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.exe
+     1>Сборка проекта "C:\Users\Виктор\Work\mp2\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.61
